@@ -13,15 +13,19 @@ Options Available:
 ------------------
 
 * --path
+
 This is the path of the executable you want to benchmark.
 
 * --file
+
 This is the path of a file that contains the inputs that are to be given to the executable as  standard input(stdin) i.e all the input that the executable expects to receive from keyboard. The content must be listed in the exact same sequence as is expected by the program. See "Examples" at the end of documentation for more clarification.
 
 * --arg
+
 These are the parameters which will be passed to the executable as command line arguments.
 
 * --loop
+
 Number of time the executable will be executed.
 
 
