@@ -40,7 +40,6 @@ def main():
             continue
 
         if param == 1 :
-            print("Count = ",count, "Saving to path : ", str(sys.argv[count]))
             path = path + str(sys.argv[count])
         if param == 2 :
             arguments = arguments + " " + str(sys.argv[count])
