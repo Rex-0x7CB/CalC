@@ -44,9 +44,9 @@ Usage:
 ------
 
 ```
-python3 CalC.py --path ~/My\ Files/My\ Programs/Learning/C++/time.out --arg 5 20 --file ~/My\ Files/My\ Programs/Learning/C++/time.argv --loop 5
+python3 CalC.py --path /My\ Files/My\ Programs/Learning/C++/time.out --arg 5 20 --file /My\ Files/My\ Programs/Learning/C++/time.argv --loop 5
 ```
 
-This will execute "time.out" in "~/My Files/My Programs/Learning/C++/" directory(as mentioned in --path) and pass '5' and '20' as command line arguments to it(as mentioned in --arg). The executable expects an integer as input from keyboard (standard input). Instead of providing an input from the keyboard, I've written the integer in a file "time.argv" which resides in "~/My Files/My Programs/Learning/C++/" directory (as mentioned in --file). The executable "time.out" will be executed '5' times (as mentioned in --loop).
+This will execute "time.out" in "/My Files/My Programs/Learning/C++/" directory(as mentioned in --path) and pass '5' and '20' as command line arguments to it(as mentioned in --arg). The executable expects an integer as input from keyboard (standard input). Instead of providing an input from the keyboard, I've written the integer in a file "time.argv" which resides in "/My Files/My Programs/Learning/C++/" directory (as mentioned in --file). The executable "time.out" will be executed '5' times (as mentioned in --loop).
 
 The file "time.out", it's source code and it's standard input file "time.argv" are also available in the 'Example' folder of CalC's Github repository.
