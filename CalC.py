@@ -53,8 +53,9 @@ def main():
     print("Standard Input File :", std_input_file)
     print("Number Of Iterations :",loop)
 
-    command = "'" + path + "'" + arguments + " < " + "'" +  std_input_file + "'"
-    print("\nCommand to be executed :", command)
+    command = "'" + path + "'" + arguments
+    if len(std_input_file) > 0:
+        command = command  + " < " + "'" +  std_input_file + "'"
 
     timings = []
     for i in range(0,loop):
